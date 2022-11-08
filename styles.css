@@ -1,0 +1,61 @@
+#color1 h5 b {
+    color: #ec5252;
+}
+
+#color2 h5 b {
+    color: #ffffff;
+}
+
+#color3 h5 b {
+    color: rgb(255, 255, 19);
+}
+
+#color4 h1 b {
+    color: #ec5252;
+}
+
+#color4 p b {
+    font-size: 30px;
+    color: #000000;
+}
+
+#color5 h1 b {
+    color: #ec5252;
+}
+
+
+/* footer */
+
+#foot1 h2 {
+    color: #ec5252;
+    font-style: bold;
+}
+
+#foot2 h2 {
+    color: #ec5252;
+    font-style: bold;
+}
+
+#foot3 h2 {
+    color: #ec5252;
+    font-style: bold;
+}
+
+#foot4 h2 {
+    color: #ec5252;
+    font-style: bold;
+}
+
+
+/* footer logo */
+
+#footlogocolor a span b {
+    color: #ec5252;
+}
+
+
+/* sign_in */
+
+#signupcolor b {
+    color: #ec5252;
+}

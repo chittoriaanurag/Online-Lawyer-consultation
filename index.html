@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <!-- fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+    <!-- css -->
+    <link rel="stylesheet" href="./styles.css">
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+
+
+
+    <title>Making You Legally Empowered, Hire Lawyers, Chat With Us.</title>
+</head>
+
+<body>
+
+
+
+    <!-- Notification banner -->
+
+    <div class="bg-red-200">
+        <div class="mx-auto max-w-7xl py-1 px-3 sm:px-6 lg:px-8">
+            <div class="flex flex-wrap items-center justify-between">
+                <div class="flex w-0 flex-1 items-center">
+                    <span class="flex rounded-lg bg-red-600 p-2">
+              <svg
+                class="h-6 w-6 text-white"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                aria-hidden="true"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M10.34 15.84c-.688-.06-1.386-.09-2.09-.09H7.5a4.5 4.5 0 110-9h.75c.704 0 1.402-.03 2.09-.09m0 9.18c.253.962.584 1.892.985 2.783.247.55.06 1.21-.463 1.511l-.657.38c-.551.318-1.26.117-1.527-.461a20.845 20.845 0 01-1.44-4.282m3.102.069a18.03 18.03 0 01-.59-4.59c0-1.586.205-3.124.59-4.59m0 9.18a23.848 23.848 0 018.835 2.535M10.34 6.66a23.847 23.847 0 008.835-2.535m0 0A23.74 23.74 0 0018.795 3m.38 1.125a23.91 23.91 0 011.014 5.395m-1.014 8.855c-.118.38-.245.754-.38 1.125m.38-1.125a23.91 23.91 0 001.014-5.395m0-3.46c.495.413.811 1.035.811 1.73 0 .695-.316 1.317-.811 1.73m0-3.46a24.347 24.347 0 010 3.46"
+                />
+             </svg>
+            </span>
+                    <p class="ml-3 truncate font-medium text-black">
+                        <span class="md:hidden">We announced a new product!</span>
+                        <span class="hidden md:inline">Free lawyer cosultancy! We're excited to announce a offer for
+                you</span
+              >
+            </p>
+          </div>
+          <div
+            class="order-3 mt-2 w-full flex-shrink-0 sm:order-2 sm:mt-0 sm:w-auto"
+          >
+            <a
+              href="./call.html"
+              class="flex items-center justify-center rounded-md border border-transparent  px-4 py-2 text-sm font-medium text-black-600 text-red-600 hover:text-red-500"
+              >
+              <span class="material-symbols-outlined">
+                call
+                </span>
+                        </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+
+    <header class="text-gray-800 body-font">
+        <div class="container mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center">
+
+            <a href="./index.html" class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+
+                <span class="ml-3 text-xl">
+                    <img src="./images/logo.png" width="110" height="80" alt="logo">
+                   
+                </span>
+            </a>
+            <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+
+                <a href="./findLawyer.html" class="mr-5 hover:text-red-400">FIND A LAWYER &nbsp;&nbsp;&nbsp;|</a>
+                <a href="./legalDisrupt.html" class="mr-5 hover:text-red-400">LEGAL DISRUPT &nbsp;&nbsp;&nbsp;|</a>
+                <a href="./forLawyerSignin.html" class="mr-5 hover:text-red-400">FOR LAWYERS &nbsp;&nbsp;&nbsp;|</a>
+                <a href="./legalnews.html" class="mr-5 hover:text-red-400">LEGAL NEWS</a>
+            </nav>
+            <button class="inline-flex items-center border-0 py-1 px-3 focus:outline-none hover:bg-red-400 rounded text-base mt-4 md:mt-0 text-white bg-red-500">
+          <a href="./signIn.html">SIGN IN&nbsp;</a>
+          <span class="material-symbols-outlined">
+            login
+            </span>
+        </button>
+        </div>
+    </header>
+
+
+    <!-- carousel -->
+
+    <div id="carouselExampleCaptions" class="carousel slide relative" data-bs-ride="carousel">
+        <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner relative w-full overflow-hidden">
+            <div class="carousel-item active relative float-left w-full">
+                <img src="./images/car1.jpg" class="block w-full" alt="..." />
+                <div id="color1" class="carousel-caption hidden md:block absolute text-center">
+                    <h5 style="font-size: 40px; color: rgb(253, 253, 253)" class="text-xl">𝐌𝐀𝐊𝐈𝐍𝐆 𝐘𝐎𝐔 𝐋𝐄𝐆𝐀𝐋𝐋𝐘 <b> 𝐄𝐌𝐏𝐎𝐖𝐄𝐑𝐄𝐃</b><br><br>
+                    </h5>
+                    <p>Tell us about your requirements and receive free proposals from verified lawyers.<br><br><br><br><br><br></p>
+                </div>
+            </div>
+            <div class="carousel-item relative float-left w-full">
+                <img src="./images/car2.jpg" class="block w-full" alt="..." />
+                <div id="color2" class="carousel-caption hidden md:block absolute text-center">
+                    <h5 style="font-size:40px;color:rgb(187, 255, 29)" class="text-xl">𝐉𝐔𝐒𝐓𝐈𝐂𝐄 <b>𝐃𝐄𝐋𝐀𝐘𝐄𝐃</b> 𝐈𝐒 𝐉𝐔𝐒𝐓𝐈𝐂𝐄 <b>𝐃𝐄𝐍𝐈𝐄𝐃</b><br><br></h5>
+                    <p>Ethics is knowing the difference between what you have a right to do and what is right to do.<br><br><br><br><br><br></p>
+                </div>
+            </div>
+            <div class="carousel-item relative float-left w-full">
+                <img src="./images/car3.jpg" class="block w-full" alt="..." />
+                <div id="color3" class="carousel-caption hidden md:block absolute text-center">
+                    <h5 style="font-size: 40px;color:rgb(255, 255, 255)" class="text-xl">
+                        𝐋𝐈𝐕𝐄 <b>𝐂𝐎𝐍𝐅𝐈𝐃𝐄𝐍𝐓𝐋𝐘</b> , 𝐖𝐄 𝐀𝐑𝐄 𝐖𝐈𝐓𝐇 𝐘𝐎𝐔<br><br></h5>
+                    <p>Man's capacity for justice makes democracy possible, but man's inclination to injustice makes democracy necessary.<br><br><br><br><br><br></p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+          <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+          <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    </div>
+
+    <!-- Info-1 -->
+
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="text-center mb-20">
+                <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">𝐘𝐨𝐮 𝐂𝐚𝐧'𝐭 𝐇𝐢𝐫𝐞 𝐇𝐚𝐩𝐩𝐢𝐧𝐞𝐬𝐬 𝐁𝐮𝐭 𝐘𝐨𝐮 𝐂𝐚𝐧 𝐇𝐢𝐫𝐞 𝐚 𝐋𝐚𝐰𝐲𝐞𝐫.</h1>
+                <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">Finding a good lawyer is hard, so we made it better, easier and faster.</p>
+                <div class="flex mt-6 justify-center">
+                    <div class="w-16 h-1 rounded-full bg-red-500 inline-flex"></div>
+                </div>
+            </div>
+            <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
+                <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+                    <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-red-200 text-red-500 mb-5 flex-shrink-0">
+
+                        <img src="/images/query.png" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
+                    </div>
+                    <div class="flex-grow">
+                        <h2 class="text-gray-900 text-lg title-font font-medium mb-3"><b> Solve Your Queries</b></h2>
+                        <p class="leading-relaxed text-base">Ask free legal questions related to your business and make smart legal decisions.</p>
+                        <a href="#" class="mt-3 text-red-500 inline-flex items-center">Get Free Legal Advice
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+                    <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-red-200 text-red-500 mb-5 flex-shrink-0">
+                        <img src="/images/call.png" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
+                        <circle cx="6" cy="6" r="3"></circle>
+                        <circle cx="6" cy="18" r="3"></circle>
+                    </div>
+                    <div class="flex-grow">
+                        <h2 class="text-gray-900 text-lg title-font font-medium mb-3"><b>Lawyers On-Call</b></h2>
+                        <p class="leading-relaxed text-base">Discuss your legal issue with an expert lawyer on-call. Anytime, Anywhere.</p>
+                        <a href="#" class="mt-3 text-red-500 inline-flex items-center">Talk to a Lawyer
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+                    <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-red-200 text-red-500 mb-5 flex-shrink-0">
+                        <img src="/images/book.png" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
+                        <!-- <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path> -->
+                        <circle cx="12" cy="7" r="4"></circle>
+                        <!-- </svg> -->
+                    </div>
+                    <div class="flex-grow">
+                        <h2 class="text-gray-900 text-lg title-font font-medium mb-3"><b>Book Appointment</b></h2>
+                        <p class="leading-relaxed text-base">Book appointment with your preferred Lawyer. Don't worry, your first consultation is free.</p>
+                        <a href="#" class="mt-3 text-red-500 inline-flex items-center">Search a Lawyer
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- info2 -->
+
+    <section class="text-gray-600 body-font bg-gray-200">
+        <div class="container px-4 py-10 mx-auto">
+            <div class="flex w-full mb-10">
+                <div class="text-center mb-5">
+                    <br><br>
+                    <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;𝐎𝐮𝐫
+                        𝐌𝐨𝐬𝐭 𝐏𝐨𝐩𝐮𝐥𝐚𝐫</h1>
+                    <div class="flex mt-1 justify-center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <div class="w-16 h-1 rounded-full bg-red-500 inline-flex"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-wrap -m-4">
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="bg-gray-100 p-6 rounded-lg">
+                        <img class="h-40 rounded w-full object-cover object-center mb-6" src="./images/business.jpg" alt="content">
+                        <h3 class="tracking-widest text-red-500 text-xs font-medium title-font">BUSINESS & CONTRACTS</h3>
+                        <a href="#">
+                            <h2 class="text-lg text-gray-900 font-medium title-font mb-4 hover:text-red-400">Non-Disclosure agreement, Contracts</h2>
+                        </a>
+                        <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche .</p>
+                    </div>
+                </div>
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="bg-gray-100 p-6 rounded-lg">
+                        <img class="h-40 rounded w-full object-cover object-center mb-6" src="./images/realestate.jpg" alt="content">
+                        <h3 class="tracking-widest text-red-500 text-xs font-medium title-font">REAL ESTATE</h3>
+                        <a href="#">
+                            <h2 class="text-lg text-gray-900 font-medium title-font mb-4 hover:text-red-400">House agreement, Lease agreement, Land Registry</h2>
+                        </a>
+                        <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+                    </div>
+                </div>
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="bg-gray-100 p-6 rounded-lg">
+                        <img class="h-40 rounded w-full object-cover object-center mb-6" src="./images/family.jpg" alt="content">
+                        <h3 class="tracking-widest text-red-500 text-xs font-medium title-font">FAMILY & PERSONAL</h3>
+                        <a href="#">
+                            <h2 class="text-lg text-gray-900 font-medium title-font mb-4 hover:text-red-400">Relationship, Divorce, voilence..</h2>
+                        </a>
+                        <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+                    </div>
+                </div>
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="bg-gray-100 p-6 rounded-lg">
+                        <img class="h-40 rounded w-full object-cover object-center mb-6" src="./images/affidavit.jpg" alt="content">
+                        <h3 class="tracking-widest text-red-500 text-xs font-medium title-font">DOCUMENTATION</h3>
+                        <a href="#">
+                            <h2 class="text-lg text-gray-900 font-medium title-font mb-4 hover:text-red-400 ">Affidavit,IT Return & Other documentation</h2>
+                        </a>
+                        <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- info3 part1 -->
+
+    <div class="container px-0 py-0 mx-auto">
+        <div class="text-center mb-20">
+            <br><br><br><br>
+            <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">𝐋𝐞𝐭'𝐬 𝐓𝐚𝐥𝐤 𝐀𝐛𝐨𝐮𝐭 𝐅𝐫𝐞𝐞𝐝𝐨𝐦 & 𝐋𝐢𝐛𝐞𝐫𝐭𝐲.</h1>
+            <div class="flex mt-6 justify-center">
+                <div class="w-16 h-1 rounded-full bg-red-500 inline-flex"></div>
+            </div>
+        </div>
+        <section class="text-gray-600 body-font">
+            <div class="container mx-auto flex px-3 py-0 md:flex-row flex-col items-center">
+                <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+                    <img class=" h-auto" alt="hero" src="./images/art19.png">
+                </div>
+
+                <div id="color4" class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                    <br><br><br><br>
+                    <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"><b>𝐀𝐫𝐭𝐢𝐜𝐥𝐞 𝟏𝟗:</b> 𝐅𝐫𝐞𝐞𝐝𝐨𝐦 𝐓𝐨 𝐒𝐩𝐞𝐞𝐜𝐡
+                        <br class="hidden lg:inline-block">
+                    </h1>
+                    <p class="mb-8 leading-relaxed"><b>The</b> &nbsp;State guarantees freedom of speech and expression to every person of India. However, the State can impose restrictions on the freedom of speech and expression in the interests of the integrity, security and sovereignty
+                        of the country, friendly relations with foreign nations, for public order, with respect to defamation, incitement to offence or contempt of court. <br><br>The State guarantees every person the freedom to assemble peacefully without
+                        arms. However, as above, reasonable restrictions can be imposed in the interests of the sovereignty and integrity of the country and public order. <br><br> A citizen of India can move freely throughout the territory of India. But
+                        this right can also be restricted on the grounds of security, public order or for protecting the interests of the Scheduled Tribes.
+                    </p>
+
+                </div>
+        </section>
+
+        <!-- info3 part2 -->
+        <br><br>
+        <section class="text-gray-600 body-font">
+            <div id="color4" class="container mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
+                <div id="color5" class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                    <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"><b>𝐀𝐫𝐭𝐢𝐜𝐥𝐞 𝟐𝟏:</b> 𝐑𝐢𝐠𝐡𝐭 𝐓𝐨 𝐋𝐢𝐛𝐞𝐫𝐭𝐲
+                        <br class="hidden lg:inline-block">
+                    </h1>
+                    <p class="mb-8 leading-relaxed"><b>The</b>&nbsp; Supreme Court of India has described this right as the ‘heart of fundamental rights’. The right specifically mentions that no person shall be deprived of life and liberty except as per the procedure established by
+                        law. This implies that this right has been provided against the State only. State here includes not just the government, but also, government departments, local bodies, the Legislatures, etc. <br><br>According to Article 21: “Protection
+                        of Life and Personal Liberty: No person shall be deprived of his life or personal liberty except according to procedure established by law.” This fundamental right is available to every person, citizens and foreigners alike. Article
+                        21 provides two rights: Right to life Right to personal liberty The fundamental right provided by Article 21 is one of the most important rights that the Constitution guarantees.</p>
+
+                </div>
+                <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                    <img class=" h-auto" alt="hero" src="./images/humanright.png">
+                </div>
+            </div>
+        </section>
+
+        <!-- testimonials -->
+
+        <section class="text-gray-600 body-font bg-gray-200">
+            <div class="container px-5 py-24 mx-auto">
+                <h1 class="text-3xl font-medium title-font text-gray-900 mb-2 text-center">𝐓𝐞𝐬𝐭𝐢𝐦𝐨𝐧𝐢𝐚𝐥𝐬</h1>
+                <center>
+                    <div class="w-16 h-1 rounded-full bg-red-500 inline-flex"></div>
+                </center>
+                <br>
+                <div class="flex flex-wrap -m-1">
+                    <div class="p-4 md:w-1/2 w-full">
+                        <div class="h-full bg-gray-100 p-8 rounded">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
+                      <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+                    </svg>
+                            <p class="leading-relaxed mb-6"> Thanks On Site Lawyers! Our lawyer, Matt, was outstanding. Calm, patient, reasonable in the turmoil we were going through. We would definitely use Boyd Law again although we hope not to have to.</p>
+
+                        </div>
+                    </div>
+                    <div class="p-4 md:w-1/2 w-full">
+                        <div class="h-full bg-gray-100 p-8 rounded">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
+                      <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+                    </svg>
+                            <p class="leading-relaxed mb-6">The team at Boyd law was fantastic! My ex took me to court to take my dog away, Shelly and Carrie not only saved my puppy but also got us back on equal footing with a single appearance! I couldn't have asked for more. Thanks
+                                On Site Lawyers!</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap -m-1">
+                        <div class="p-4 md:w-1/2 w-full">
+                            <div class="h-full bg-gray-100 p-8 rounded">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
+                          <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+                        </svg>
+                                <p class="leading-relaxed mb-6">Honesty, Integrity, Transparency, Partnership. With on site lawyers I got this and more. I'm always treated first class and like I am family. Excited about the future and a long and fruitful partnership!</p>
+
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/2 w-full">
+                            <div class="h-full bg-gray-100 p-8 rounded">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
+                          <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+                        </svg>
+                                <p class="leading-relaxed mb-6">Simply phenomenal from start to finish. We could not have had a more kind and considerate lawyer in Natalie. The whole legal team have been responsive, professional and empathic throughout our court needs.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!-- our teams -->
+
+        <section class="text-gray-600 body-font">
+            <div class="container px-5 py-24 mx-auto">
+                <div class="flex flex-col text-center w-full mb-20">
+                    <h1 class="text-2xl font-medium title-font mb-2 text-gray-900 tracking-widest">𝐎𝐮𝐫 𝐓𝐞𝐚𝐦𝐬</h1>
+                    <center>
+                        <div class="w-16 h-1 rounded-full bg-red-500 inline-flex"></div>
+                    </center>
+                    <br>
+                    <p style="font-size: 19px;" class="lg:w-2/3 mx-auto leading-relaxed text-base">Meet some of our On Call lawyers</p>
+                </div>
+                <div class="flex flex-wrap -m-4">
+                    <div class="p-4 lg:w-1/2">
+                        <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                            <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="./images/Mia-Khalifa-PNG-6.png">
+                            <div class="flex-grow sm:pl-8">
+                                <h2 class="title-font font-medium text-lg text-gray-900">Holden Caulfield</h2>
+                                <h3 class="text-gray-500 mb-3">Corporate Lawyer</h3>
+                                <p class="mb-4">Ensuring a company's transactions comply with corporate laws and regulations.</p>
+                                <span class="inline-flex">
+                <a class="text-gray-500">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                  </svg>
+                </a>
+                <a class="ml-2 text-gray-500">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                  </svg>
+                </a>
+                <a class="ml-2 text-gray-500">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                  </svg>
+                </a>
+              </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 lg:w-1/2">
+                        <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                            <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="./images/lawyer-2.png">
+                            <div class="flex-grow sm:pl-8">
+                                <h2 class="title-font font-medium text-lg text-gray-900">Alper Kamu</h2>
+                                <h3 class="text-gray-500 mb-3">Family Lawyer</h3>
+                                <p class="mb-4">Act on matters such as divorce and separation, child contact and adoption, Local Authority care orders and financial settlements.</p>
+                                <span class="inline-flex">
+                <a class="text-gray-500">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                  </svg>
+                </a>
+                <a class="ml-2 text-gray-500">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                  </svg>
+                </a>
+                <a class="ml-2 text-gray-500">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                  </svg>
+                </a>
+              </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 lg:w-1/2">
+                        <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                            <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="./images/lawyer-3.png">
+                            <div class="flex-grow sm:pl-8">
+                                <h2 class="title-font font-medium text-lg text-gray-900">Atticus Finch</h2>
+                                <h3 class="text-gray-500 mb-3">Personal Injury Lawyer</h3>
+                                <p class="mb-4"> Lawyer who provides legal services to those who claim to have been injured, physically or psychologically.</p>
+                                <span class="inline-flex">
+                <a class="text-gray-500">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                  </svg>
+                </a>
+                <a class="ml-2 text-gray-500">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                  </svg>
+                </a>
+                <a class="ml-2 text-gray-500">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                  </svg>
+                </a>
+              </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 lg:w-1/2">
+                        <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                            <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="./images/lawyer-4.png">
+                            <div class="flex-grow sm:pl-8">
+                                <h2 class="title-font font-medium text-lg text-gray-900">Henry Letham</h2>
+                                <h3 class="text-gray-500 mb-3">Criminal Lawyer</h3>
+                                <p class="mb-4">specializes in the field of crimes and punishments. Individuals who have been accused of committing a crime are guided by criminal lawyers.</p>
+                                <span class="inline-flex">
+                <a class="text-gray-500">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                  </svg>
+                </a>
+                <a class="ml-2 text-gray-500">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                  </svg>
+                </a>
+                <a class="ml-2 text-gray-500">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                  </svg>
+                </a>
+              </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+
+        <footer class="text-gray-400 bg-gray-900 body-font">
+            <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+                <div id="footlogocolor" class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+                    <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
+
+                        <span class="ml-3 text-xl">𝐎𝐍 𝐒𝐈𝐓𝐄 <b> 𝐋𝐀𝐖𝐘𝐄𝐑𝐒</b></span>
+                    </a>
+                    <br>
+                    <p class="mt-2 text-sm text-gray-500">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;𝐘𝐨𝐮 𝐂𝐚𝐧'𝐭 𝐇𝐢𝐫𝐞 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;𝐇𝐚𝐩𝐩𝐢𝐧𝐞𝐬𝐬 𝐁𝐮𝐭 𝐘𝐨𝐮 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;𝐂𝐚𝐧
+                        𝐇𝐢𝐫𝐞 𝐚 𝐆𝐨𝐨𝐝 𝐋𝐚𝐰𝐲𝐞𝐫.</p>
+                </div>
+                <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+                    <div id="foot1" class="lg:w-1/4 md:w-1/2 w-full px-4">
+                        <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3 ">ON SITE LAWYER</h2>
+                        <nav class="list-none mb-10">
+                            <li>
+                                <a href="#" class="text-gray-400 hover:text-white">Find a Lawyer</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-gray-400 hover:text-white">Legal Disrupt</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-gray-400 hover:text-white">For Lawyers</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-gray-400 hover:text-white">Legal News</a>
+                            </li>
+                        </nav>
+                    </div>
+                    <div id="foot2" class="lg:w-1/4 md:w-1/2 w-full px-4">
+                        <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">OUR SERVICE</h2>
+                        <nav class="list-none mb-10">
+                            <li>
+                                <a href="#" class="text-gray-400 hover:text-white">Solve Queries</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-gray-400 hover:text-white">Lawyer On-call</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-gray-400 hover:text-white">Book Appointment</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-gray-400 hover:text-white">Call-Offer</a>
+                            </li>
+                        </nav>
+                    </div>
+                    <div id="foot3" class="lg:w-1/4 md:w-1/2 w-full px-4">
+                        <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">FOR LAWYERS</h2>
+                        <nav class="list-none mb-10">
+                            <li>
+                                <a href="#" class="text-gray-400 hover:text-white">Lawyer Login</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-gray-400 hover:text-white">Search Lawyer</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-gray-400 hover:text-white">Lawyer Review</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-gray-400 hover:text-white">Lawyer Support</a>
+                            </li>
+                        </nav>
+                    </div>
+                    <div id="foot4" class="lg:w-1/4 md:w-1/2 w-full px-4">
+                        <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">CONNECT WITH US</h2>
+                        <nav class="list-none mb-10">
+                            <li>
+                                <a href="#" class="text-gray-400 hover:text-white">Home</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-gray-400 hover:text-white">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-gray-400 hover:text-white">Contact Us</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-gray-400 hover:text-white">Our Blogs</a>
+                            </li>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-gray-600 bg-opacity-75">
+                <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+                    <p class="text-gray-400 text-sm text-center sm:text-left">© 2022 Created by:-
+                        <a href="#" rel="noopener noreferrer" class="text-gray-500 ml-1" target="_blank">@</a>
+                    </p>
+                    <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+                  <a href="#" class="text-white hover:text-red-400">
+                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                      <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                    </svg>
+                  </a>
+                  <a href="#" class="ml-3 text-white hover:text-red-400">
+                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                      <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                    </svg>
+                  </a>
+                  <a href="#" class="ml-3 text-white hover:text-red-400">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                      <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                      <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                    </svg>
+                  </a>
+                  <a href="#" class="ml-3 text-white hover:text-red-400">
+                    <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                      <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                      <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                    </svg>
+                  </a>
+                </span>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+
+</body>
+
+</html>
